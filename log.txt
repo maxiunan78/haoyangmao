@@ -1,0 +1,413 @@
+2022-01-19 22:15:01 base.py[line:445] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2022-01-19 22:15:01 base.py[line:445] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2022-01-19 22:15:01 base.py[line:445] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2022-01-19 22:15:01 base.py[line:445] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2022-01-19 22:15:01 base.py[line:886] INFO Added job "aps_test" to job store "default"
+2022-01-19 22:15:01 base.py[line:886] INFO Added job "aps_test_name" to job store "default"
+2022-01-19 22:15:01 base.py[line:886] INFO Added job "aps_test_param" to job store "default"
+2022-01-19 22:15:01 base.py[line:886] INFO Added job "aps_test_param" to job store "default"
+2022-01-19 22:15:01 base.py[line:171] INFO Scheduler started
+2022-01-19 22:15:01 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:15:01 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:15:07.375609+08:00 (in 5.937492 seconds)
+2022-01-19 22:15:07 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:15:07 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:15:07 CST)" (scheduled at 2022-01-19 22:15:07.375609+08:00)
+2022-01-19 22:15:07 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:15:11.375609+08:00 (in 3.998781 seconds)
+2022-01-19 22:15:07 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:15:13 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:15:11 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:15:11 base.py[line:123] INFO Running job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:15:11 CST)" (scheduled at 2022-01-19 22:15:11.375609+08:00)
+2022-01-19 22:15:11 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:15:13.375609+08:00 (in 1.999156 seconds)
+2022-01-19 22:15:11 base.py[line:144] INFO Job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:15:21 CST)" executed successfully
+2022-01-19 22:15:13 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:15:13 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:15:13 CST)" (scheduled at 2022-01-19 22:15:13.375609+08:00)
+2022-01-19 22:15:13 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:15:13 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:15:13 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:15:19.375609+08:00 (in 5.998225 seconds)
+2022-01-19 22:15:19 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:15:19 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:15:19 CST)" (scheduled at 2022-01-19 22:15:19.375609+08:00)
+2022-01-19 22:15:19 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:15:19 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:15:19 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:15:21.375609+08:00 (in 1.998851 seconds)
+2022-01-19 22:15:21 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:15:21 base.py[line:123] INFO Running job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:15:21 CST)" (scheduled at 2022-01-19 22:15:21.375609+08:00)
+2022-01-19 22:15:21 base.py[line:144] INFO Job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:15:21 CST)" executed successfully
+2022-01-19 22:15:21 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:15:25.375609+08:00 (in 3.983599 seconds)
+2022-01-19 22:15:25 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:15:25 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:15:25 CST)" (scheduled at 2022-01-19 22:15:25.375609+08:00)
+2022-01-19 22:15:25 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:15:31.375609+08:00 (in 5.998235 seconds)
+2022-01-19 22:15:25 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:15:31 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:15:31 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:15:31 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:15:31 CST)" (scheduled at 2022-01-19 22:15:31.375609+08:00)
+2022-01-19 22:15:31 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:15:31 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:15:31 base.py[line:123] INFO Running job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:15:31 CST)" (scheduled at 2022-01-19 22:15:31.375609+08:00)
+2022-01-19 22:15:31 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:15:37.375609+08:00 (in 5.997645 seconds)
+2022-01-19 22:15:31 base.py[line:144] INFO Job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:15:41 CST)" executed successfully
+2022-01-19 22:15:37 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:15:37 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:15:37 CST)" (scheduled at 2022-01-19 22:15:37.375609+08:00)
+2022-01-19 22:15:37 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:15:37 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:15:37 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:15:41.375609+08:00 (in 3.998305 seconds)
+2022-01-19 22:15:41 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:15:41 base.py[line:123] INFO Running job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:15:41 CST)" (scheduled at 2022-01-19 22:15:41.375609+08:00)
+2022-01-19 22:15:41 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:15:43.375609+08:00 (in 1.996231 seconds)
+2022-01-19 22:15:41 base.py[line:144] INFO Job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:15:51 CST)" executed successfully
+2022-01-19 22:15:43 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:15:43 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:15:49.375609+08:00 (in 5.997957 seconds)
+2022-01-19 22:15:43 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:15:49 CST)" (scheduled at 2022-01-19 22:15:43.375609+08:00)
+2022-01-19 22:15:43 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:15:49 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:15:49 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:15:49 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:15:51.375609+08:00 (in 1.999057 seconds)
+2022-01-19 22:15:49 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:15:55 CST)" (scheduled at 2022-01-19 22:15:49.375609+08:00)
+2022-01-19 22:15:49 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:15:55 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:15:51 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:15:51 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:15:55.375609+08:00 (in 3.998951 seconds)
+2022-01-19 22:15:51 base.py[line:123] INFO Running job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:16:01 CST)" (scheduled at 2022-01-19 22:15:51.375609+08:00)
+2022-01-19 22:15:51 base.py[line:144] INFO Job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:16:01 CST)" executed successfully
+2022-01-19 22:15:55 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:15:55 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:16:01.375609+08:00 (in 5.998827 seconds)
+2022-01-19 22:15:55 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:16:01 CST)" (scheduled at 2022-01-19 22:15:55.375609+08:00)
+2022-01-19 22:15:55 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:16:01 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:16:01 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:16:01 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:16:07.375609+08:00 (in 5.998629 seconds)
+2022-01-19 22:16:01 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:16:07 CST)" (scheduled at 2022-01-19 22:16:01.375609+08:00)
+2022-01-19 22:16:01 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:16:07 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:16:01 base.py[line:123] INFO Running job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:16:11 CST)" (scheduled at 2022-01-19 22:16:01.375609+08:00)
+2022-01-19 22:16:01 base.py[line:144] INFO Job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:16:11 CST)" executed successfully
+2022-01-19 22:16:07 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:16:07 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:16:11.375609+08:00 (in 3.997747 seconds)
+2022-01-19 22:16:07 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:16:13 CST)" (scheduled at 2022-01-19 22:16:07.375609+08:00)
+2022-01-19 22:16:07 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:16:13 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:16:11 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:16:11 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:16:13.375609+08:00 (in 1.997425 seconds)
+2022-01-19 22:16:11 base.py[line:123] INFO Running job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:16:21 CST)" (scheduled at 2022-01-19 22:16:11.375609+08:00)
+2022-01-19 22:16:11 base.py[line:144] INFO Job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:16:21 CST)" executed successfully
+2022-01-19 22:16:13 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:16:13 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:16:19.375609+08:00 (in 5.997358 seconds)
+2022-01-19 22:16:13 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:16:19 CST)" (scheduled at 2022-01-19 22:16:13.375609+08:00)
+2022-01-19 22:16:13 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:16:19 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:16:19 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:16:19 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:16:21.375609+08:00 (in 1.997533 seconds)
+2022-01-19 22:16:19 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:16:25 CST)" (scheduled at 2022-01-19 22:16:19.375609+08:00)
+2022-01-19 22:16:19 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:16:25 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:16:21 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:16:21 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:16:25.375609+08:00 (in 3.997277 seconds)
+2022-01-19 22:16:21 base.py[line:123] INFO Running job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:16:31 CST)" (scheduled at 2022-01-19 22:16:21.375609+08:00)
+2022-01-19 22:16:21 base.py[line:144] INFO Job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:16:31 CST)" executed successfully
+2022-01-19 22:16:25 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:16:25 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:16:31.375609+08:00 (in 5.998222 seconds)
+2022-01-19 22:16:25 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:16:31 CST)" (scheduled at 2022-01-19 22:16:25.375609+08:00)
+2022-01-19 22:16:25 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:16:31 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:16:31 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:16:31 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:16:37.375609+08:00 (in 5.991822 seconds)
+2022-01-19 22:16:31 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:16:37 CST)" (scheduled at 2022-01-19 22:16:31.375609+08:00)
+2022-01-19 22:16:31 base.py[line:123] INFO Running job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:16:41 CST)" (scheduled at 2022-01-19 22:16:31.375609+08:00)
+2022-01-19 22:16:31 base.py[line:144] INFO Job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:16:41 CST)" executed successfully
+2022-01-19 22:16:31 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:16:37 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:16:37 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:16:37 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:16:41.375609+08:00 (in 3.996939 seconds)
+2022-01-19 22:16:37 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:16:43 CST)" (scheduled at 2022-01-19 22:16:37.375609+08:00)
+2022-01-19 22:16:37 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:16:43 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:16:41 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:16:41 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:16:43.375609+08:00 (in 1.996942 seconds)
+2022-01-19 22:16:41 base.py[line:123] INFO Running job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:16:51 CST)" (scheduled at 2022-01-19 22:16:41.375609+08:00)
+2022-01-19 22:16:41 base.py[line:144] INFO Job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:16:51 CST)" executed successfully
+2022-01-19 22:16:43 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:16:43 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:16:49.375609+08:00 (in 5.997577 seconds)
+2022-01-19 22:16:43 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:16:49 CST)" (scheduled at 2022-01-19 22:16:43.375609+08:00)
+2022-01-19 22:16:43 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:16:49 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:16:49 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:16:49 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:16:51.375609+08:00 (in 1.997504 seconds)
+2022-01-19 22:16:49 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:16:55 CST)" (scheduled at 2022-01-19 22:16:49.375609+08:00)
+2022-01-19 22:16:49 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:16:55 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:16:51 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:16:51 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:16:55.375609+08:00 (in 3.997878 seconds)
+2022-01-19 22:16:51 base.py[line:123] INFO Running job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:17:01 CST)" (scheduled at 2022-01-19 22:16:51.375609+08:00)
+2022-01-19 22:16:51 base.py[line:144] INFO Job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:17:01 CST)" executed successfully
+2022-01-19 22:16:55 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:16:55 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:17:00+08:00 (in 4.622389 seconds)
+2022-01-19 22:16:55 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:17:01 CST)" (scheduled at 2022-01-19 22:16:55.375609+08:00)
+2022-01-19 22:16:55 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:17:01 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:17:00 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:17:00 base.py[line:123] INFO Running job "aps_test (trigger: cron[hour='22', minute='17'], next run at: 2022-01-19 22:17:00 CST)" (scheduled at 2022-01-19 22:17:00+08:00)
+2022-01-19 22:17:00 base.py[line:144] INFO Job "aps_test (trigger: cron[hour='22', minute='17'], next run at: 2022-01-19 22:17:00 CST)" executed successfully
+2022-01-19 22:17:00 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:17:01.375609+08:00 (in 1.373318 seconds)
+2022-01-19 22:17:01 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:17:01 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:17:07.375609+08:00 (in 5.981561 seconds)
+2022-01-19 22:17:01 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:17:07 CST)" (scheduled at 2022-01-19 22:17:01.375609+08:00)
+2022-01-19 22:17:01 base.py[line:123] INFO Running job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:17:11 CST)" (scheduled at 2022-01-19 22:17:01.375609+08:00)
+2022-01-19 22:17:01 base.py[line:144] INFO Job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:17:11 CST)" executed successfully
+2022-01-19 22:17:01 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:17:07 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:17:07 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:17:07 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:17:11.375609+08:00 (in 3.998211 seconds)
+2022-01-19 22:17:07 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:17:13 CST)" (scheduled at 2022-01-19 22:17:07.375609+08:00)
+2022-01-19 22:17:07 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:17:13 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:17:11 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:17:11 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:17:13.375609+08:00 (in 1.997241 seconds)
+2022-01-19 22:17:11 base.py[line:123] INFO Running job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:17:21 CST)" (scheduled at 2022-01-19 22:17:11.375609+08:00)
+2022-01-19 22:17:11 base.py[line:144] INFO Job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:17:21 CST)" executed successfully
+2022-01-19 22:17:13 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:17:13 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:17:19.375609+08:00 (in 5.993633 seconds)
+2022-01-19 22:17:13 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:17:19 CST)" (scheduled at 2022-01-19 22:17:13.375609+08:00)
+2022-01-19 22:17:13 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:17:19 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:17:19 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:17:19 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:17:21.375609+08:00 (in 1.917870 seconds)
+2022-01-19 22:17:19 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:17:25 CST)" (scheduled at 2022-01-19 22:17:19.375609+08:00)
+2022-01-19 22:17:19 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:17:25 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:17:21 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:17:21 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:17:25.375609+08:00 (in 3.970496 seconds)
+2022-01-19 22:17:21 base.py[line:123] INFO Running job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:17:31 CST)" (scheduled at 2022-01-19 22:17:21.375609+08:00)
+2022-01-19 22:17:21 base.py[line:144] INFO Job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:17:31 CST)" executed successfully
+2022-01-19 22:17:25 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:17:25 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:17:31.375609+08:00 (in 5.992569 seconds)
+2022-01-19 22:17:25 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:17:31 CST)" (scheduled at 2022-01-19 22:17:25.375609+08:00)
+2022-01-19 22:17:25 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:17:31 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:17:31 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:17:31 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:17:37.375609+08:00 (in 5.996273 seconds)
+2022-01-19 22:17:31 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:17:37 CST)" (scheduled at 2022-01-19 22:17:31.375609+08:00)
+2022-01-19 22:17:31 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:17:37 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:17:31 base.py[line:123] INFO Running job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:17:41 CST)" (scheduled at 2022-01-19 22:17:31.375609+08:00)
+2022-01-19 22:17:31 base.py[line:144] INFO Job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:17:41 CST)" executed successfully
+2022-01-19 22:17:37 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:17:37 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:17:41.375609+08:00 (in 3.981719 seconds)
+2022-01-19 22:17:37 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:17:43 CST)" (scheduled at 2022-01-19 22:17:37.375609+08:00)
+2022-01-19 22:17:37 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:17:43 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:17:41 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:17:41 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:17:43.375609+08:00 (in 1.934091 seconds)
+2022-01-19 22:17:41 base.py[line:123] INFO Running job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:17:51 CST)" (scheduled at 2022-01-19 22:17:41.375609+08:00)
+2022-01-19 22:17:41 base.py[line:144] INFO Job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:17:51 CST)" executed successfully
+2022-01-19 22:17:43 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:17:43 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:17:49.375609+08:00 (in 5.996658 seconds)
+2022-01-19 22:17:43 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:17:49 CST)" (scheduled at 2022-01-19 22:17:43.375609+08:00)
+2022-01-19 22:17:43 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:17:49 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:17:49 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:17:49 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:17:51.375609+08:00 (in 1.995805 seconds)
+2022-01-19 22:17:49 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:17:55 CST)" (scheduled at 2022-01-19 22:17:49.375609+08:00)
+2022-01-19 22:17:49 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:17:55 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:17:51 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:17:51 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:17:55.375609+08:00 (in 3.995695 seconds)
+2022-01-19 22:17:51 base.py[line:123] INFO Running job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:18:01 CST)" (scheduled at 2022-01-19 22:17:51.375609+08:00)
+2022-01-19 22:17:51 base.py[line:144] INFO Job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:18:01 CST)" executed successfully
+2022-01-19 22:17:55 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:17:55 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:18:01.375609+08:00 (in 5.995670 seconds)
+2022-01-19 22:17:55 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:18:01 CST)" (scheduled at 2022-01-19 22:17:55.375609+08:00)
+2022-01-19 22:17:55 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:18:01 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:18:01 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:18:01 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:18:07.375609+08:00 (in 5.995637 seconds)
+2022-01-19 22:18:01 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:18:07 CST)" (scheduled at 2022-01-19 22:18:01.375609+08:00)
+2022-01-19 22:18:01 base.py[line:123] INFO Running job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:18:11 CST)" (scheduled at 2022-01-19 22:18:01.375609+08:00)
+2022-01-19 22:18:01 base.py[line:144] INFO Job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:18:11 CST)" executed successfully
+2022-01-19 22:18:01 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:18:07 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:18:07 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:18:07 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:18:11.375609+08:00 (in 3.995261 seconds)
+2022-01-19 22:18:07 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:18:13 CST)" (scheduled at 2022-01-19 22:18:07.375609+08:00)
+2022-01-19 22:18:07 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:18:13 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:18:11 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:18:11 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:18:13.375609+08:00 (in 1.995251 seconds)
+2022-01-19 22:18:11 base.py[line:123] INFO Running job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:18:21 CST)" (scheduled at 2022-01-19 22:18:11.375609+08:00)
+2022-01-19 22:18:11 base.py[line:144] INFO Job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:18:21 CST)" executed successfully
+2022-01-19 22:18:13 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:18:13 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:18:19.375609+08:00 (in 5.995221 seconds)
+2022-01-19 22:18:13 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:18:19 CST)" (scheduled at 2022-01-19 22:18:13.375609+08:00)
+2022-01-19 22:18:13 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:18:19 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:18:19 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:18:19 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:18:21.375609+08:00 (in 1.990177 seconds)
+2022-01-19 22:18:19 base.py[line:123] INFO Running job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:18:25 CST)" (scheduled at 2022-01-19 22:18:19.375609+08:00)
+2022-01-19 22:18:19 base.py[line:131] ERROR Job "aps_test_param (trigger: interval[0:00:06], next run at: 2022-01-19 22:18:25 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Users\86138\AppData\Local\Programs\Python\Python37\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/Users/86138/PycharmProjects/haoyangmao/run.py", line 91, in aps_test_param
+    print(10 / number)
+ZeroDivisionError: division by zero
+2022-01-19 22:18:21 base.py[line:945] DEBUG Looking for jobs to run
+2022-01-19 22:18:21 base.py[line:1025] DEBUG Next wakeup is due at 2022-01-19 22:18:25.375609+08:00 (in 3.986804 seconds)
+2022-01-19 22:18:21 base.py[line:123] INFO Running job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:18:31 CST)" (scheduled at 2022-01-19 22:18:21.375609+08:00)
+2022-01-19 22:18:21 base.py[line:144] INFO Job "aps_test_name (trigger: interval[0:00:10], next run at: 2022-01-19 22:18:31 CST)" executed successfully
